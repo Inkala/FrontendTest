@@ -1,0 +1,24 @@
+{
+  "name": "frontendtest",
+  "version": "1.0.0",
+  "description": "## GOALS",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "./node_modules/.bin/live-server --port=1337"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inkala/FrontendTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inkala/FrontendTest/issues"
+  },
+  "homepage": "https://github.com/Inkala/FrontendTest#readme"
+}

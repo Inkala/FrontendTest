@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <title>Hello!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Github Profile Searcher</title>
 </head>
 <body>
-
-<h1>Hello!</h1>
+  <div class="main">
+    <img class="octocat" src='https://assets-cdn.github.com/images/modules/logos_page/Octocat.png' alt='Github Logo'/>
+    <h1>Github Profile Searcher</h1>
+  	<div class="modal" id="modal">
+  		<div class="input-container">
+  			<input type="text" id="search" placeholder="Search username..." class="search search-input">
+  			<button class="search search-button">Search</button>
+  		</div>
+  		<div class="user-info">
+  		</div>
+  		<div class="repos">
+  		</div>
+  	</div>    
+  </div>
+	<script src="./js/index.js"></script>
 </body>
 </html>
