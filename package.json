@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "## GOALS",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "browserify": "^16.1.1",
+    "node-fetch": "^2.1.2"
+  },
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "chai": "^4.1.2",
+    "jsdom": "^11.7.0",
+    "jsdom-global": "^3.0.2",
+    "live-server": "^1.2.0",
+    "mocha": "^5.0.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server" : "./node_modules/.bin/live-server --port=1337"
+    "test": "mocha",
+    "server": "./node_modules/.bin/live-server --port=1337"
   },
   "repository": {
     "type": "git",
